@@ -1,56 +1,313 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Name | Professional Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 40px;
-      margin-top: 60px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      line-height: 1.6;
-      color: #555;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 20px;
-      background: #007bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Remote Creatives Media | International Recruitment Partner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --navy: #0b1c2d;
+            --offwhite: #f5f7fa;
+            --lightgrey: #cbd3dc;
+            --accent: #5fa8ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--navy);
+            color: var(--offwhite);
+            line-height: 1.7;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 80px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 90px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header h2 {
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--lightgrey);
+            margin-top: 15px;
+        }
+
+        .authority {
+            margin-top: 25px;
+            font-size: 14px;
+            color: var(--lightgrey);
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        section h3 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        section p {
+            margin-bottom: 18px;
+            color: var(--offwhite);
+        }
+
+        ul {
+            margin-left: 20px;
+            color: var(--lightgrey);
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .highlight-box {
+            background: rgba(255, 255, 255, 0.04);
+            border-left: 4px solid var(--accent);
+            padding: 30px;
+            border-radius: 6px;
+        }
+
+        .privacy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 30px;
+        }
+
+        .privacy-card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .privacy-card h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .privacy-card p {
+            font-size: 14px;
+            color: var(--lightgrey);
+        }
+
+        .contact-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--lightgrey);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
 </head>
 <body>
 
 <div class="container">
-  <h1>Remote Creatives Media</h1>
-  <p>
-    Welcome to my professional website.  
-    I specialize in customer service, sales, and virtual assistance.
-  </p>
 
-  <p>
-    I help businesses grow by handling communication, lead generation, and customer support professionally.
-  </p>
+    <!-- HERO -->
+    <header>
+        <h1>Remote Creatives Media</h1>
+        <h2>Remote Streaming & Live Content Opportunities<br>International Recruitment Partner</h2>
+        <div class="authority">
+            Creator-first approach • Private, confidential recruitment • International projects
+        </div>
+    </header>
 
-  <a class="button" href="mailto:your@email.com">Contact Me</a>
+    <!-- ABOUT US -->
+    <section>
+        <h3>About Us</h3>
+        <p>
+            Remote Creatives Media is an independent recruitment partner supporting international
+            online media and streaming platforms.
+        </p>
+        <p>
+            We act as a professional intermediary between creators and global platforms, ensuring
+            clarity, safety, and informed decision-making at every stage.
+        </p>
+
+        <div class="highlight-box">
+            <p><strong>Our role is to:</strong></p>
+            <ul>
+                <li>Inform candidates about available opportunities</li>
+                <li>Conduct initial screening based on platform requirements</li>
+                <li>Schedule online video interviews with the project’s recruitment team</li>
+            </ul>
+            <p>
+                We do <strong>not</strong> conduct final interviews, make hiring decisions, or charge
+                candidates any fees.
+            </p>
+        </div>
+    </section>
+
+    <!-- ROLE -->
+    <section>
+        <h3>About the Role</h3>
+        <p>
+            We are currently recruiting candidates for remote, camera-based streaming and live
+            content roles on international platforms.
+        </p>
+
+        <ul>
+            <li>Hosting live streams</li>
+            <li>Interacting with viewers in real time</li>
+            <li>Participating in “just chatting,” lifestyle, entertainment, or media-based content</li>
+            <li>Following platform and broadcast guidelines</li>
+        </ul>
+
+        <p>
+            Specific formats, schedules, and monetization models are explained in detail during the
+            interview process.
+        </p>
+    </section>
+
+    <!-- REQUIREMENTS -->
+    <section>
+        <h3>Basic Requirements</h3>
+        <ul>
+            <li>Age: 18–27 years</li>
+            <li>Location: Europe or Latin America</li>
+            <li>Basic conversational English (additional languages are a plus)</li>
+            <li>Appearance: Slim or average body type (not plus-size)</li>
+            <li>
+                Equipment:
+                <ul>
+                    <li>iPhone 11 or newer OR Android (2023 or newer)</li>
+                    <li>Headphones with microphone</li>
+                    <li>Quiet, private space suitable for video calls</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>
+            Candidates must clearly understand that this work involves online streaming and
+            on-camera presence.
+        </p>
+    </section>
+
+    <!-- INTERVIEW -->
+    <section>
+        <h3>Interview Process</h3>
+        <ol style="margin-left:20px; color: var(--lightgrey);">
+            <li>Initial contact and eligibility screening</li>
+            <li>Confirmation of interest and availability</li>
+            <li>Scheduling of an online video interview</li>
+            <li>Interview conducted directly by the platform’s recruitment team</li>
+        </ol>
+        <p>
+            The interview is informational and does not obligate you to start working.
+        </p>
+    </section>
+
+    <!-- PRIVACY -->
+    <section>
+        <h3>Privacy, Confidentiality & Safety</h3>
+        <div class="privacy-grid">
+            <div class="privacy-card">
+                <h4>Confidentiality</h4>
+                <p>
+                    All candidate information is handled discreetly and shared only with authorized
+                    recruitment teams.
+                </p>
+            </div>
+
+            <div class="privacy-card">
+                <h4>Data Protection</h4>
+                <p>
+                    Personal data is used solely for recruitment screening and interview coordination.
+                </p>
+            </div>
+
+            <div class="privacy-card">
+                <h4>No Public Promotion</h4>
+                <p>
+                    No images, names, or profiles are shared publicly without explicit consent.
+                </p>
+            </div>
+
+            <div class="privacy-card">
+                <h4>Discreet Communication</h4>
+                <p>
+                    All contact is conducted privately via secure messaging and online interviews.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPORTANT INFO -->
+    <section>
+        <h3>Important Information</h3>
+        <ul>
+            <li>We are a recruitment intermediary, not the platform owner</li>
+            <li>We never request payments, deposits, or registration fees</li>
+            <li>All interviews are conducted online</li>
+            <li>Final decisions are made by the platform’s representatives</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+        <div class="contact-box">
+            <h3>Contact</h3>
+            <p>
+                To check eligibility or receive more information:
+            </p>
+            <p>
+                📱 Telegram: <strong>@Kenkigera</strong>
+            </p>
+            <p style="color: var(--lightgrey);">
+                Please include: Name, age, country, and interest in remote streaming
+            </p>
+        </div>
+    </section>
+
 </div>
+
+<footer>
+    <p>
+        Disclaimer: This opportunity involves live online content creation.
+        Details regarding schedules, income structure, training, and platform rules
+        are provided directly by the platform during the interview.
+    </p>
+</footer>
 
 </body>
 </html>
